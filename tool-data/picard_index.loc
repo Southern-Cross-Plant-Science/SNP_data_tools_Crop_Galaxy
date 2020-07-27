@@ -1,0 +1,41 @@
+#This is a sample file distributed with Galaxy that enables tools
+#to use a directory of Picard dict and associated files. You will need
+#to create these data files and then create a picard_index.loc file 
+#similar to this one (store it in this directory) that points to 
+#the directories in which those files are stored. The picard_index.loc 
+#file has this format (longer white space is the TAB character):
+#
+#<unique_build_id>	<dbkey>	<display_name>	<fasta_file_path>
+#
+#So, for example, if you had hg18 indexed and stored in 
+#/depot/data2/galaxy/srma/hg18/, 
+#then the srma_index.loc entry would look like this:
+#
+#hg18	hg18	hg18 Pretty	/depot/data2/galaxy/picard/hg18/hg18.fa
+#
+nb_rga7_cdna	nb_irgsp10_rgap7_cdna	O. sativa Nipponbare (temp japonica) cDNA RGAP7 IRGSP1.0	/hd2/data_galaxy/faseq/rice/nippo_rgap7.cdna
+n22v22_mrna	n22_v22_mrna	O. sativa N22 (aus) mRNA v2.2	/hd2/data_galaxy/faseq/rice/N22_cds.fasta
+ir64_mrna	ir64_rs1_mrna	O. sativa IR64 (indica) mRNA 	/hd2/data_galaxy/faseq/rice/IR64_cds.fasta
+azucenars1_mrna	azu_rs1_mrna	O. sativa Azucena (trop japonica) mRNA RS1	/hd2/data_galaxy/faseq/rice/Azucena_cds.fasta
+#cs10_cbdrx_201911	cs10cbdrxcds	Cannabis sativa hemp reference:Cs10_CBDRx cds from genomic 2019-11	/hd2/data_galaxy/faseq/cs10/CBDRx_cs10_cds_from_genomic.fa
+#canSat3fulltrscpt	canSat3ftsc	Purple Khush (Cannabis sativa):canSat3 all transcripts	/hd2/data_galaxy/faseq/Cansat3/canSat3_transcriptome-full.fa
+#finola1fulltrscpt	finola1ftsc	Finola (Finola 1 hemp): finola1 all transcripts	/hd2/data_galaxy/faseq/fin1/finola1_transcriptome-full.fa
+#bjunceacdsv2	bjunceafcdsv2	B. juncea AAFC v2 all cds	/hd2/data_galaxy/faseq/bjuncea/Bjuncea_v2.cds.fa
+#bjunceapepv2	bjunceafpepv2	B. juncea AAFC v2 all peptide	/hd2/data_galaxy/faseq/bjuncea/Bjuncea_v2.pep.fa
+#bjuncea_pep_brad	bjunceapepbrad	B. juncea BRAD all peptide	/hd2/data_galaxy/faseq/bjuncea/Bju.chr.modified_id.pep.fa
+#ccitriocdsv2d1	cctriofcdsv2d1	C. citriodora all transc cds v2.1	/hd2/data_galaxy/faseq/ccitriodora/Ccitriodorav2.1.allTrs.cds.fa
+#brapa_chiifuV3_pep	brapachiiv3pep	B. rapa chiifu peptide v3	/hd2/data_galaxy/faseq/brapa/Brapa_genome_v3.0_pep.fasta
+
+
+
+#and your /depot/data2/galaxy/srma/hg18/ directory
+#would contain the following three files:
+#hg18.fa
+#hg18.dict
+#hg18.fa.fai
+#
+#The dictionary file for each reference (ex. hg18.dict) must be 
+#created via Picard (http://picard.sourceforge.net). Note that
+#the dict file does not have the .fa extension although the
+#path list in the loc file does include it.
+#

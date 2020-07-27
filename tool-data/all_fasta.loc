@@ -1,0 +1,28 @@
+#This file lists the locations and dbkeys of all the fasta files
+#under the "genome" directory (a directory that contains a directory
+#for each build). The script extract_fasta.py will generate the file
+#all_fasta.loc. This file has the format (white space characters are
+#TAB characters):
+#
+#<unique_build_id>	<dbkey>	<display_name>	<file_path>
+#
+#So, all_fasta.loc could look something like this:
+#
+#apiMel3	apiMel3	Honeybee (Apis mellifera): apiMel3	/path/to/genome/apiMel3/apiMel3.fa
+#hg19canon	hg19	Human (Homo sapiens): hg19 Canonical	/path/to/genome/hg19/hg19canon.fa
+#hg19full	hg19	Human (Homo sapiens): hg19 Full	/path/to/genome/hg19/hg19full.fa
+#
+#Your all_fasta.loc file should contain an entry for each individual
+#fasta file. So there will be multiple fasta files for each build,
+#such as with hg19 above.
+#
+irgsp10_con	osa_irgsp10_con	O. sativa Nipponbare (temperate japonica) genome IRGSP1.0	/hd2/data_galaxy/faseq/rice/IRGSP-nb10_genome.fasta
+osa_azu_con	osa_azucena_con	O. sativa Azucena (tropical japonica) genome	/hd2/data_galaxy/faseq/rice/AzucenaRS1.PKQC01.revision_Chr.fa
+osa_ir64_con	osa_ir64_con	O. sativa IR 64 (indica) genome	/hd2/data_galaxy/faseq/rice/OsIR64RS1.RWKJ01.fa
+osa_n22_con	osa_n22_v2_con	O. sativa N22 (aus) v2 genome	/hd2/data_galaxy/faseq/rice/N22_v2.fasta
+
+
+#cs10_cbdrx_con201911	cs10cbdrxccon	Cannabis sativa hemp reference:Cs10_CBDRx genomic 2019-11	/hd2/data_galaxy/faseq/cs10/GCF_900626175.1_cs10_genomic.fna
+#bjunceaconv1	bjunceafconv1	B. juncea AAFC genome v1 10,932 contigs	/hd2/data_galaxy/faseq/bjuncea/Bjuncea_genome_v1_N.fa
+#ccitrioconv018	ccitriov018	C. citriodora genome v.018	/hd2/data_galaxy/faseq/ccitriodora/CCV_018_PMs_scaffs.idFix.fa
+
