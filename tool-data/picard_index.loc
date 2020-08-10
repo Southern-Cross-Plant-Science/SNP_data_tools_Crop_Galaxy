@@ -14,9 +14,13 @@
 #hg18	hg18	hg18 Pretty	/depot/data2/galaxy/picard/hg18/hg18.fa
 #
 nb_rga7_cdna	nb_irgsp10_rgap7_cdna	O. sativa Nipponbare (temp japonica) cDNA RGAP7 IRGSP1.0	/hd2/data_galaxy/faseq/rice/nippo_rgap7.cdna
-n22v22_mrna	n22_v22_mrna	O. sativa N22 (aus) mRNA v2.2	/hd2/data_galaxy/faseq/rice/N22_cds.fasta
-ir64_mrna	ir64_rs1_mrna	O. sativa IR64 (indica) mRNA 	/hd2/data_galaxy/faseq/rice/IR64_cds.fasta
-azucenars1_mrna	azu_rs1_mrna	O. sativa Azucena (trop japonica) mRNA RS1	/hd2/data_galaxy/faseq/rice/Azucena_cds.fasta
+n22v22_mrna	n22_v22_mrna	O. sativa N22 (aus) AGI mRNA v2.2	/hd2/data_galaxy/faseq/rice/N22_cds.fasta
+ir64_mrna	ir64_rs1_mrna	O. sativa IR64 (indica) AGI mRNA 	/hd2/data_galaxy/faseq/rice/IR64_cds.fasta
+azucenars1_mrna	azu_rs1_mrna	O. sativa Azucena (trop japonica) RS1 AGI mRNA	/hd2/data_galaxy/faseq/rice/Azucena_cds.fasta
+n22v22_gmep_mrna	n22_v22_gmep_mrna	O. sativa N22 (aus) GeneMark-EP mRNA v2.2	/hd2/data_galaxy/faseq/rice/n22_nuc_seq.2.fna
+ir64_gmep_mrna	ir64_rs1_gmep_mrna	O. sativa IR64 (indica) GeneMark-EP mRNA 	/hd2/data_galaxy/faseq/rice/ir64_nuc_seq.2.fna
+azucenars1_gmep_mrna	azu_rs1_gmep_mrna	O. sativa Azucena (trop japonica) RS1 GeneMark-EP mRNA	/hd2/data_galaxy/faseq/rice/azu_nuc_seq.2.fna
+
 #cs10_cbdrx_201911	cs10cbdrxcds	Cannabis sativa hemp reference:Cs10_CBDRx cds from genomic 2019-11	/hd2/data_galaxy/faseq/cs10/CBDRx_cs10_cds_from_genomic.fa
 #canSat3fulltrscpt	canSat3ftsc	Purple Khush (Cannabis sativa):canSat3 all transcripts	/hd2/data_galaxy/faseq/Cansat3/canSat3_transcriptome-full.fa
 #finola1fulltrscpt	finola1ftsc	Finola (Finola 1 hemp): finola1 all transcripts	/hd2/data_galaxy/faseq/fin1/finola1_transcriptome-full.fa

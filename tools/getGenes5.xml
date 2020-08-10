@@ -24,9 +24,12 @@
       <label>Reference genome to get genes..</label>
         <!-- <option value="tabix_Cs10_20190829_cds.gz">Cannabis sativa Cs10 cds-protein 20190829 genome annot</option> -->
 	<option value="nb_rgap7.chr.sort.gff3.gz" selected="true">Oryza sativa Nipponbare (tempJ) canonical genes RGAP7 annotation</option>		
-	<option value="mergemaker.OsIR64.gff.sort.new.chr.sort.gff.gz">Oryza sativa IR64 (indica) new annotation</option>
-	<option value="mergemaker.OsN22RS2.gff.sort.new.chr.sort.gff.gz">Oryza sativa N22 (aus) new annotation</option>
-	<option value="mergemaker.OsAzucena.gff.sort.new.chr.sort.gff.gz">Oryza sativa Azucena (tropJ) new annotation</option>
+	<option value="ir64_gm-dbep.sort.gff3.gz">Oryza sativa IR64 (indica) GeneMark EP prediction</option>
+	<option value="n22_gm-dbep.sort.gff3.gz">Oryza sativa N22 (aus) GeneMark EP prediction</option>
+	<option value="azucena_gm-dbep.sort.gff3.gz">Oryza sativa Azucena (tropJ) GeneMark EP prediction</option>
+	<option value="mergemaker.OsIR64.gff.sort.new.chr.sort.gff.gz">Oryza sativa IR64 (indica) AGI annotation</option>
+	<option value="mergemaker.OsN22RS2.gff.sort.new.chr.sort.gff.gz">Oryza sativa N22 (aus) AGI annotation</option>
+	<option value="mergemaker.OsAzucena.gff.sort.new.chr.sort.gff.gz">Oryza sativa Azucena (tropJ) AGI annotation</option>
     </param>
    <conditional name="feat">
 	   	   <param name="typ" type="select" label="Gene or mRNA" help="Display gene or mRNA in the region?">
